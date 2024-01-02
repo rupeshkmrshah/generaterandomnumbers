@@ -1,0 +1,39 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.generator{
+    display: block;
+    margin: auto;
+    padding: 200px;
+    text-align: center;
+}
+
+#btn{
+    color: white;
+    background-color: black;
+    padding: 15px 30px 15px 30px;
+    border: #000 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#btn::after{
+    content: ">";
+}
+
+#otp{
+    color: black;
+    font-size: 32px;
+}
